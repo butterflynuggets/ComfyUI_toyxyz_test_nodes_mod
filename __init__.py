@@ -5,7 +5,7 @@ from .ComfyCouple.anima_atten_multi import AnimaAttenMulti
 from .nodes.crop_area_mask import CropAreaMask
 from .nodes.draw_area_mask import DrawAreaMask
 from .nodes.couple_region_painter import ComfyCoupleRegionPainter
-from .nodes.toyxyz_test_nodes import CaptureWebcam, LoadWebcamImage, LoadImageFromPath, SaveImagetoPath, LatentDelay, ImageResize_Padding, Direct_screenCap, Depth_to_normal, Remove_noise, Export_glb, Load_Random_Text_From_File
+from .nodes.toyxyz_test_nodes import LoadWebcamImage, LoadImageFromPath, SaveImagetoPath, LatentDelay, ImageResize_Padding, Depth_to_normal, Remove_noise, Export_glb, Load_Random_Text_From_File
 from .nodes.visual_area_mask import VisualAreaMask
 from .nodes.minimax_h3_prompter import MinimaxH3Prompter
 from .nodes.image_prompter import ImagePrompter
@@ -49,13 +49,11 @@ NODE_CLASS_MAPPINGS = {
     "MiniMaxH3AddGuideFrames": MiniMaxH3AddGuideFrames,
     "CutVideo": CutVideo,
     "ConnectVideo": ConnectVideo,
-    "CaptureWebcam": CaptureWebcam,
     "LoadWebcamImage": LoadWebcamImage,
     "LoadImageFromPath": LoadImageFromPath,
     "SaveImagetoPath": SaveImagetoPath,
     "LatentDelay": LatentDelay,
     "ImageResize_Padding": ImageResize_Padding,
-    "Direct Screen Capture": Direct_screenCap,
     "Depth to normal": Depth_to_normal,
     "Remove noise": Remove_noise,
     "Export glb": Export_glb,
@@ -95,13 +93,11 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "MiniMaxH3AddGuideFrames": "Add Guide for MiniMax H3 frames",
     "CutVideo": "Cut Video",
     "ConnectVideo": "Connect Video",
-    "CaptureWebcam": "Capture Webcam",
     "LoadWebcamImage": "Load Webcam Image",
     "LoadImageFromPath": "Load Image From Path",
     "SaveImagetoPath": "Save Image to Path",
     "LatentDelay": "LatentDelay",
     "ImageResize_Padding": "ImageResize_Padding",
-    "Direct_screenCap": "Direct_screenCap",
     "Depth_to_normal": "Depth_to_normal",
     "Remove_noise": "Remove_noise",
     "Export_glb": "Export_glb",

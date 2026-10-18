@@ -51,7 +51,9 @@ Update
 
    `git clone https://github.com/toyxyz/ComfyUI_toyxyz_test_nodes`
 
-2. Run setup.bat in `ComfyUI/custom_nodes/ComfyUI_toyxyz_test_nodes/CaptureCam`
+2. The optional `CaptureCam` application and Windows-only screen/window capture
+   nodes are not required for the ComfyUI nodes. They are only supported on
+   Windows; skip `CaptureCam/setup.bat` on Linux or Google Colab.
 
 
 ## Usage
